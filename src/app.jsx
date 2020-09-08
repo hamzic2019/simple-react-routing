@@ -4,4 +4,4 @@ import AppRouters from './routers/approuters.jsx'
 
 const rootApp = document.querySelector('#root');
 
-ReactDOM.render(AppRouters, rootApp);
+ReactDOM.render(<AppRouters />, rootApp);
